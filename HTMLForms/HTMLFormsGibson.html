@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>HTMLFormsGibson</title>
+  </head>
+
+  <body>
+    <form action="" method="get">
+      <p>Write my college essay for me</p>
+        <textarea name="comments" rows="5" columns="10"> Begin essay here. . .</textarea>
+    </form>
+
+    <hr />
+
+    <form action="" method="get">
+      <p>Enter my grade on this assignment here</p>
+        <input type="radio" name="gradeChoice" value="10" /> 10/10
+        <input type="radio" name="gradeChoice" value="11" /> 11/10
+        <input type="radio" name="gradeChoice" value="12" /> 12/10
+        <input type="radio" name="gradeChoice" value="13" /> 13/10
+        <input type="radio" name="gradeChoice" value="14" /> 14/10
+        <input type="radio" name="gradeChoice" value="15" /> 15/10
+        <input type="radio" name="gradeChoice" value="16" /> 16/10
+        <input type="radio" name="gradeChoice" value="100" checked="checked" /> 100/100
+    </form>
+
+    <hr />
+
+    <form action="" method="get">
+      <p>Enter your favorite month (because nobody cares about January or February)</p>
+      <select name="monthChoice">
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August" selected="selected">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+      </select>
+    </form>
+
+    <hr />
+
+    <form action="" method="get">
+      <p>List your favorite subjects</p>
+        <select name="subjects" multiple="multiple">
+          <option value="Math" selected="selected">Math</option>
+          <option value="English">English</option>
+          <option value="Computer Science" selected="selected">Computer Science</option>
+          <option value="Art">Art</option>
+          <option value="Band">Band</option>
+          <option value="Science">Science</option>
+          <option value="PE">PE</option>
+          <option value="Theology">Theology</option>
+          <option value="Social Studies">Social Studies</option>
+          <option value="Lunch">Lunch</option>
+        </select>
+    </form>
+
+    <hr />
+
+    <fieldset>
+      <legend>SLUH Student Info</legend>
+      <label>Student ID
+        <br />
+        <input type="text" name="studentID" />
+      </label>
+      <br />
+      <label>Class
+        <br />
+        <input type="radio" name="classChoice" value="Senior" /> Senior
+        <input type="radio" name="classChoice" value="Junior" /> Junior
+        <input type="radio" name="classChoice" value="Freshman or Sophomore" /> Freshman or Sophomore
+      </label>
+    </fieldset>
+  </body>
+</html>
