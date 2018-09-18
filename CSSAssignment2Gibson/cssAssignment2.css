@@ -1,0 +1,60 @@
+th {
+  text-align: center;
+  font-style: italic;
+  border-style: solid;
+  border-width: 3px;
+  border-bottom-width: 8px;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  padding: 20px;
+  border-spacing: 10px;
+}
+
+tr.even:hover {
+  background-color: #51e1e0;
+}
+
+tr.odd:hover {
+  background-color: #bdb6f2;
+}
+
+li {
+  text-align: left;
+}
+
+ol.berries {
+  border-style: dotted;
+  border-width: 3px;
+  border-color: #3700ff;
+  background-color: #ffa400;
+  list-style-type: upper-roman;
+} /* later fix border to be squares instead */
+
+ul.placesToVisit {
+  border-style: dashed;
+  border-width: 3px;
+  border-color: #008700;
+  background-color: #ff0000;
+  list-style-type: circle;
+}
+
+table {
+  border-style: ridge;
+  border-width: 10px;
+  border-color: #00ff38;
+  border-spacing: 10px;
+  margin: auto;
+}
+
+/*
+orange - ffa400
+border blue - 3700ff
+red - ff0000
+border green - 008700
+border light green - 00ff38
+*/
