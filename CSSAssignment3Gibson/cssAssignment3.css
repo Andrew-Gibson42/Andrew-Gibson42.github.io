@@ -1,0 +1,39 @@
+body {
+  background-image: url("images/globe.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+}
+
+h1, p {
+  text-align: center;
+}
+
+div.classOne {
+  margin: 0px;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  background-color: #b58096;
+  display: inline-block;
+}
+
+div.classTwo {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  width: 500px;
+  margin: auto;
+}
