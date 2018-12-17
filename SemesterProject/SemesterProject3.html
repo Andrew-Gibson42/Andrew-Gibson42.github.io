@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <title>Semester Project 3</title>
+
+    <link href="SemesterProjectCSS.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container_24 clearfix">
+      <div class="article grid_8">
+        <ul class="navigation">
+          <li class="links"><a href="SemesterProject1.html">Home</a></li>
+          <li class="links"><a href="SemesterProject2.html">Probability Rules</a></li>
+        </ul>
+      </div>
+
+      <div class="article grid_8 pageTitle">
+        <p class="pageTitle">AP Stats: Probability</p>
+      </div>
+
+      <div class="article grid_8">
+        <ul class="navigation">
+          <li class="links"><a href="SemesterProject3.html">Counting Calculator</a></li>
+          <li class="links"><a href="SemesterProject4.html">Fun Facts</a></li>
+        </ul>
+      </div>
+    </div>
+
+      <br />
+
+    <div class="container_24 clearfix">
+      <div class="article grid_24 countingTitle terms">
+        <p class="countingTitle"><b>Counting Calculator: Factorials, Permutations, and Combinations</b></p>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container_24 clearfix">
+      <div class="article grid_14 calcDiv factorial">
+        <div class="countingDescription">
+          <p><b>Factorials:</b></p>
+          <p>
+            A <i>factorial</i>, symbolized by !, of an integer is the product of that number and all integers below it, above 0.
+            For example, 3! = 3 * 2 * 1 = 6. For example, 3! is the number of ways 3 options could be picked, in order.
+          </p>
+        </div>
+      </div>
+      <div class="article grid_10 calcDiv factorial">
+        <form id="factorialID" action method="get">
+          <p>
+            <input type="number" name="inputNum" size="2" maxlength="5">
+
+            ! =
+
+          </p>
+
+          <p id="factorialOutput">Enter a postive integer.</p>
+
+          <input type="button" value="Calculate Factorial" onclick="factorialClick();">
+        </form>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container_24 clearfix">
+      <div class="article grid_14 calcDiv factorial">
+        <table border="5">
+          <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>6</td>
+            <td>24</td>
+            <td>120</td>
+            <td>720</td>
+            <td>5040</td>
+            <td>40320</td>
+            <td>362880</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="article grid_10 calcDiv factorial commonFactorials">
+        <p><b>Common Factorials</b></p>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container_24 clearfix">
+      <div class="article grid_10 calcDiv permutation">
+        <form id="permutationID" action method="get" class>
+          <p>
+            <input type="number" name="inputNum" size="2" maxlength="5">
+
+            P
+
+            <input type="number" name="inputNum" size="2" maxlength="5">
+
+            =
+
+          </p>
+        </form>
+
+        <p id="permutationOutput">Enter two integers such that n >= r >= 0.</p>
+
+        <input type="button" value="Calculate Permutation" onclick="permutationClick();">
+      </div>
+
+      <div class="article grid_14 calcDiv">
+        <div class="countingDescription permutation">
+          <p><b>Permutations</b></p>
+          <p>
+            A <i>permutation</i> is the number of ways an ordered set of size r can be given by a set of size n.
+            The value of a permutation is given by nPr = ((n)! / (n - r)!), where n >= r >= 0.
+            For permutations, set {A, B, C} is different than {B, C, A}.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container_24 clearfix">
+      <div class="article grid_14 calcDiv">
+        <div class="countingDescription combination">
+          <p><b>Combinations:</b></p>
+          <p>
+            A <i>combination</i> is the number of ways an unordered set of size r can be given by a set of size n.
+            The value of a combination is given by nCr = ((n)! / ((n - r)! * r!)).
+            For combinations, set {A, B, C} is the same as {B, C, A}.
+          </p>
+        </div>
+      </div>
+      <div class="article grid_10 calcDiv combination">
+        <form id="combinationID" action method="get">
+          <p>
+            <input type="number" name="inputNum" size="2" maxlength="5">
+
+            C
+
+            <input type="number" name="inputNum" size="2" maxlength="5">
+
+            =
+
+          </p>
+        </form>
+
+        <input type="button" value="Calculate Combination" onclick="combinationClick();">
+
+        <p id="combinationOutput">Enter two integers such that n >= r >= 0.</p>
+      </div>
+    </div>
+
+    <script src="SemesterProjectJS1.js"></script>
+  </body>
+<html>

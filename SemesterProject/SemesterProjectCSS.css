@@ -1,0 +1,188 @@
+@import url("960_24_col.css");
+
+p.pageTitle {
+  background-color: #2c5b1b;
+  border-style: solid;
+  border-width: 10px;
+  width: 275px;
+  border-color: #2d302c;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 30;
+  font-weight: bold;
+  padding: 5px;
+  font-family: "Chalkboard";
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+li.links {
+  width: 150px;
+  height: 20px;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 3px;
+}
+
+li {
+  text-align: left;
+}
+
+.article {
+  text-align: center;
+  background-color: #afbacc;
+  height: 150px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 3px;
+}
+
+div.countingTitle {
+  height: 60px;
+}
+
+p.countingTitle {
+  line-height: 30px;
+}
+
+div.commonFactorials {
+  line-height: 100px;
+}
+
+div.calcDiv{
+  height: 140px;
+}
+
+form.countingForm {
+  line-height: 70px;
+}
+
+div.countingDescription {
+  padding: 10px;
+}
+
+body {
+  background-image: url("binary2.jpg");
+}
+
+div.page2 {
+  height: 80px;
+}
+
+div.terms {
+  background-color: #edefb1;
+}
+
+div.A {
+  background-color: #7a9dd6;
+}
+
+div.AorB {
+  background-color: #b3d173;
+}
+
+div.AandB {
+  background-color: #43bcbc;
+}
+
+div.BgivenA {
+  background-color: #f2856f;
+}
+
+div.infiniteSeries {
+  background-color: #f28ecd;
+}
+
+div.factorial {
+  background-color: #94aee8;
+}
+
+div.permutation {
+  background-color: #d6848c;
+}
+
+div.combination {
+  background-color: #84d69e;
+}
+
+table {
+  align: center;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+td {
+  text-align: center;
+  width: 40px;
+}
+
+div.birthdayProb {
+  height: 100px;
+  background-color: #33e391;
+}
+
+div.probDefinition {
+  height: 70px;
+  background-color: #ffa366;
+}
+
+div.listArticle {
+  height: 285px;
+}
+
+p.underline {
+  text-decoration: underline;
+}
+
+div.pokerProbabilities {
+  background-color: #6699ff;
+}
+
+div.diceProbabilities {
+  background-color: #ffa366;
+}
+
+div.montyHallTitle {
+  height: 50px;
+}
+
+ul.pokerProbabilities {
+  font-size: 18;
+}
+
+div.door {
+  height: 65px;
+  background-color: #eaaa8c;
+}
+
+div.linksTitle {
+  height: 50px;
+  background-color: #44d18b;
+}
+
+div.links {
+  background-color: #f9a4c5;
+  height: 90px;
+}
+
+div.links2 {
+  padding: 10px;
+}
